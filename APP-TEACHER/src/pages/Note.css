@@ -1,0 +1,10 @@
+.bg-card-note{
+    background-color: rgb(230 205 203);
+}
+.card-content-grid-note{
+    padding: 10px;
+    /* padding-left: 0px; */
+    /* padding-right: 20px; */
+    margin-left: 5px;
+    margin-right: 5px
+}

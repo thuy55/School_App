@@ -1,0 +1,41 @@
+{
+  "name" : "HỆ THỐNG QUẢN LÝ ECLO",
+  "short_name" : "ECLO PANEL",
+  "description" : "HỆ THỐNG QUẢN LÝ DOANH NGHIỆP ECLO",
+  "start_url" : "/",
+  "scope" : "/",
+  "display" : "standalone",
+  "orientation" : "natural",
+  "lang" : "Vietnamese",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "prefer_related_applications": true,
+  "gcm_sender_id": "103953800507",
+  "icons" : [
+    {
+      "src": "/templates/backend/img/icons/152x152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/templates/backend/img/icons/167x167.png",
+      "type": "image/png",
+      "sizes": "167x167"
+    },
+    {
+      "src": "/templates/backend/img/icons/180x180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/templates/backend/img/icons/192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/templates/backend/img/icons/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

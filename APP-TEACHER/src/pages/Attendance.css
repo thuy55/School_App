@@ -1,0 +1,290 @@
+.page-section {
+  padding: 7.5rem 0;
+}
+
+/* khunng chính (ul)*/
+.linetime {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.linetime:before {
+  content: "";
+  top: 0;
+  left: 40px;
+  height: 100%;
+  width: 2px;
+  background-color: black;
+  border: 1px solid gray;
+  position: absolute;
+  margin-left: 1px;
+}
+
+/* khung nội dung (li)*/
+.linetime li {
+  position: relative;
+  margin-bottom: 2rem;
+  min-height: 80px;
+}
+
+.lineime li:before,
+.linetime li:after {
+  display: table;
+  content: "";
+}
+
+.linetime li:after {
+  clear: both;
+}
+
+.linetime-panel {
+  position: relative;
+  padding-left: 100px;
+}
+
+.linetime-img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: 6px solid #000;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+}
+
+.linetime-img h4 {
+  font-size: .8rem;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+
+  /* khunng chính (ul)*/
+  .linetime:before {
+      left: 50%;
+  }
+
+  /* khung nội dung (li)*/
+  .linetime li {
+      position: relative;
+      margin-bottom: 2rem;
+      min-height: 50px;
+  }
+
+  .linetime-panel {
+      width: 40%;
+      padding: 0;
+      float: left;
+      text-align: right;
+  }
+
+  .linetime-img {
+      left: 50%;
+      transform: translateX(-48%);
+      width: 120px;
+      height: 120px;
+  }
+
+  .linetime-img h4 {
+      font-size: 1rem;
+  }
+
+  .inverted {
+      float: right;
+      text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  /* khung nội dung (li)*/
+  .linetime li {
+      position: relative;
+      margin-bottom: 4rem;
+      min-height: 50px;
+  }
+  .linetime-img {
+      width: 170px;
+      height: 170px;
+  }
+  .linetime-img h4 {
+      font-size: calc(1.275rem + 0.3vw);
+  }
+  .linetime-panel {
+      padding: 0 1.25rem;
+  }
+}
+.container p{
+  color: rgb(9, 9, 139);
+  font-weight: bolder;
+  text-align: start;
+}
+.list-cardheader{
+ 
+  align-items: center;
+  padding-bottom: "5px";
+  display: flex;
+  justify-content: start;
+}
+.list-cardcontent{
+  background-color: rgb(202, 216, 238);
+  margin: 5px;
+  border-radius: 10px;
+
+}
+.list-card{
+  border-style: none;
+  background-color: rgb(242, 243, 243);
+  border-radius: 10px;
+}
+.card-home {
+  margin-top: 10px;
+  background-color: rgb(197, 207, 239);
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+body{
+  background-color: #eee;
+}
+
+
+
+.card {
+ box-shadow: 0 0.46875rem 2.1875rem rgba(4,9,20,0.03), 0 0.9375rem 1.40625rem rgba(4,9,20,0.03), 0 0.25rem 0.53125rem rgba(4,9,20,0.05), 0 0.125rem 0.1875rem rgba(4,9,20,0.03);
+ border-width: 0;
+ transition: all .2s;
+}
+
+.card {
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ min-width: 0;
+ word-wrap: break-word;
+ background-color: #fff;
+ background-clip: border-box;
+ border: 1px solid rgba(26,54,126,0.125);
+ border-radius: .25rem;
+ border-bottom: 0;
+}
+
+.card-body {
+ flex: 1 1 auto;
+ padding: 1.25rem;
+ 
+}
+.vertical-timeline {
+ width: 100%;
+ position: relative;
+ padding: 1.5rem 0 1rem;
+}
+
+.vertical-timeline::before {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 80px;
+ height: 100%;
+ width: 4px;
+ background: #e9ecef;
+ border-radius: .25rem;
+}
+
+.vertical-timeline-element {
+ position: relative;
+ margin: 0 0 1rem;
+}
+
+.vertical-timeline--animate .vertical-timeline-element-icon.bounce-in {
+ visibility: visible;
+ animation: cd-bounce-1 .8s;
+}
+.vertical-timeline-element-icon {
+ position: absolute;
+ top: 0;
+ left: 72px;
+}
+
+.vertical-timeline-element-icon .badge-dot-xl {
+ box-shadow: 0 0 0 5px #fff;
+}
+
+.badge-dot-xl {
+ width: 20px;
+ height: 20px;
+ position: relative;
+}
+.badge:empty {
+ display: none;
+}
+
+
+/* .badge-dot-xl::before {
+ content: '';
+ width: 10px;
+ height: 10px;
+ border-radius: .25rem;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ margin: -5px 0 0 -5px;
+ background: #fff;
+} */
+ion-modal#example-modal2 {
+  --height: 74%;
+  --border-radius: 16px;
+}
+
+ion-modal#example-modal2::part(backdrop) {
+  background: rgba(209, 213, 219);
+  opacity: 1;
+}
+
+ion-modal#example-modal2 ion-toolbar {
+  --background: rgb(14 116 144);
+  --color: white;
+}
+.vertical-timeline-element-content {
+ position: relative;
+ margin-left: 90px;
+ font-size: .8rem;
+}
+
+.vertical-timeline-element-content .timeline-title {
+ font-size: .8rem;
+ text-transform: none;
+ margin: 0 0 .5rem;
+ padding: 2px 0 0;
+ font-weight: bold;
+ display: flex;
+ justify-content: start;
+ margin-top: 5px;
+ 
+}
+/* .title-card{
+ margin-left: 10px;
+ padding: "5px"; background-color: "#FFB6C1" 
+} */
+
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+ display: block;
+ position: absolute;
+ left: -90px;
+ top: 0;
+ padding-right: 10px;
+ text-align: right;
+ color: #adb5bd;
+ font-size: .7619rem;
+ white-space: nowrap;
+ margin-right: 10px;
+ text-align: center;
+}
+
+.vertical-timeline-element-content:after {
+ content: "";
+ display: table;
+ clear: both;
+}

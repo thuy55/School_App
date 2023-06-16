@@ -1,0 +1,45 @@
+.item-lession{
+    background-color: #b9d6ed;
+    border-radius: 10px;
+
+}
+.card-content {
+    background-color: rgb(197, 207, 239);
+    padding: 10px;
+}
+.row{
+    display: flex;
+    align-items: start;
+}
+.grid{
+    padding: 0;
+}
+.bg-color{
+    background-color: rgb(239, 241, 242);
+    border-radius: 8px;
+}
+.input-group{
+    background-color: rgb(156, 157, 163);
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.bg-card{
+    background-color: rgb(39 80 172);
+    color: white;
+}
+.card-content-grid-list{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.noidung{
+   
+    font-size: 16px;
+  
+}
+.title-name{
+    color: rgb(186, 188, 188);
+}

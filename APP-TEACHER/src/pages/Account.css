@@ -1,0 +1,137 @@
+article {
+    padding-bottom: 1rem;
+  }
+  .content {
+    position: relative;
+    border-radius: 0.5rem;
+  }
+  .before-bg-style::before {
+    content: " ";
+    position: absolute;
+    margin-top: -62px;
+    width: 100%;
+    height: 9rem;
+  
+    background-color: #007AFF;
+  
+    z-index: 0;
+  }
+  /*  */
+  .profile {
+    margin-top: 4rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    background: white;
+    padding: 0.5rem;
+  
+    border-radius: 0.5rem;
+    position: relative;
+  }
+  .avatar {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -30%);
+    width: 9rem;
+    height: 9rem;
+    z-index: 9;
+  }
+  .avatar-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  /*  */
+  .profile-main-account {
+    margin-top: 3rem;
+    padding: 1rem;
+    padding-top: 3.5rem;
+    background-color: #ffffff;
+    border: 2px solid rgba(228, 228, 228, 0.815);
+    border-radius: 0.5rem;
+    margin-bottom: 0px;
+  }
+  .profile-main li {
+    padding-bottom: 1.5rem;
+    list-style: none;
+    text-align: center;
+  }
+  
+  .education {
+    margin: 1rem;
+  
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+  
+    border-radius: 0.5rem;
+    position: relative;
+    background-color: #ffffff;
+    display: grid;
+    gap: 1.5rem;
+  }
+  .education input {
+    margin-top: 0.5rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 1rem;
+  
+    width: 100%;
+  }
+  .inner-scroll{
+    background-color: red;
+  }
+  .fw-1{
+    font-size: var(--f7-card-header-font-size);
+  }
+  .text-1{
+   color: #064f9d;
+   font-weight: bold;
+   padding: 0px;
+  }
+  /* .text-2{
+    color: #007AFF;
+    font-weight: bold;
+  } */
+  .bg-2{
+    background-color: #F2F2FF;
+  }
+  .card-profile{
+    position: relative;
+    border-radius: 5px;
+    font-size: var(--f7-card-font-size);
+    margin-top: var(--f7-card-margin-vertical);
+    margin-bottom: var(--f7-card-margin-vertical);
+    margin-left: calc(var(--f7-card-margin-horizontal) + var(--f7-safe-area-left));
+    margin-right: calc(var(--f7-card-margin-horizontal) + var(--f7-safe-area-right));
+    box-shadow: var(--f7-card-box-shadow);
+    margin:9px;
+  }
+  .bg-xl{
+    background-color: #e1f1f1;
+  }
+  ion-modal#example-modal {
+    --height: 95%;
+    --border-radius: 16px;
+    --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    
+
+  }
+  
+  ion-modal#example-modal::part(backdrop) {
+    background: rgba(209, 213, 219);
+    opacity: 1;
+   }
+  
+  ion-modal#example-modal ion-toolbar {
+    --background:rgb(8, 33, 130);
+    --color: white;
+  }
+  .native-input.sc-ion-input-md{
+    padding: 0;
+  }
+  .native-textarea.sc-ion-textarea-md{
+    padding: 0;
+  }
+  
+  

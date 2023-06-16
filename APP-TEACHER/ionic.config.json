@@ -1,0 +1,7 @@
+{
+  "name": "shoolapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

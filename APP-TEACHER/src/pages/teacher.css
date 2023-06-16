@@ -1,0 +1,102 @@
+.box_content {
+  text-align: justify;
+  max-width: 600px;
+  width: 100%;
+  margin: 20px auto;
+  padding: 15px;
+  background: #fff;
+  color: #595959;
+  -webkit-border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+ol {
+  counter-reset: li;
+  list-style: none;
+  font: 15px "trebuchet MS", "lucida sans";
+  padding: 0;
+  margin-bottom: 4em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  margin-left: -5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ol ol {
+  margin: 0 0 0 2em;
+}
+.rounded-list p {
+  position: relative;
+  display: block;
+  padding: 0.4em 0.4em 0.4em 2em;
+  margin: 0.5em 0;
+  background: #ddd;
+  color: #444;
+  text-decoration: none;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.rounded-list p:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #ffc923;
+  height: 39px;
+  width: 39px;
+  line-height: 31px;
+  border: 0.3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  -moz-border-radius: 2em;
+  -webkit-border-radius: 2em;
+  border-radius: 2em;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.rounded-list p:hover:before {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.rounded-list p:hover:before {
+  background: #1da7e7;
+  color: #fff;
+}
+.img-teacher{
+    border-radius: 10px;
+}
+.item-teacher-1{
+    background-color: #b9d6ed;
+    border-radius: 10px;
+    padding-left: 15px;
+
+    /* box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.01); */
+}
+.nd{
+    color: #09077c;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-size: larger; */
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.acc{
+    background-color: #e3edf5;
+    border-radius: 15px;
+}

@@ -1,0 +1,36 @@
+.triangle{
+    height: 0;
+    border-bottom: 38px solid #0963CC;
+    border-right: 26px solid transparent;
+    color: white;
+    width: 85%;
+}
+.card_none{
+    margin: 4px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.card_h{
+    padding: 7px;
+    padding-left: 0px;
+}
+.text{
+    padding: 10px;
+    font-size: 16px;
+}
+.content{
+    font-size: 19px;
+    font-weight: bold;
+    padding-bottom: 1px;
+    color: #5f55ff;
+    border-bottom: 2px solid red;
+}
+.text-justify{
+text-align: justify;
+}
+.anh{
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+    color: #ff9483;
+}

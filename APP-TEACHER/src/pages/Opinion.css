@@ -1,0 +1,39 @@
+.title-card{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.2;
+
+}
+.list-item{
+    border-radius: 5px;
+    padding: 2px;
+    margin: 15px;
+    background-color:  rgb(141, 160, 235);
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.01);
+}
+.card-content{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.searchbar{
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom:2px;
+}
+ion-modal#example-modal {
+    --height: 70%;
+    --border-radius: 16px;
+    --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    
+
+  }
+  
+  ion-modal#example-modal::part(backdrop) {
+    background: rgba(209, 213, 219);
+    opacity: 1;
+   }
+  
+  ion-modal#example-modal ion-toolbar {
+    --background:rgb(141, 160, 235);
+    --color: white;
+  }
